@@ -1,0 +1,42 @@
+* {
+  font-family: 'Sofia Sans', sans-serif;
+}
+
+body {
+  font-size: 16px;
+  background-color: #e5e5e5;
+}
+
+.welcome {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#champ-names {
+  display: none;
+}
+
+#champ-lore {
+  display: none;
+  padding: 0 10rem;
+  font-style: italic;
+  font-size: 20px;
+}
+
+#champ-name-list {
+  width: 20rem;
+  height: 20rem;
+  overflow-y: scroll;
+}
+
+#champ-name-list li {
+  cursor: pointer;
+}
+
+#champ-name-list li:hover {
+  background-color: #abe3a0;
+}

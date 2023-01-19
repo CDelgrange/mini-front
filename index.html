@@ -2,10 +2,33 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Mini front</title>
+  <title>LoL</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <button id="ajaxButton" type="button">Faire une requête</button>
+  <h1 class="welcome">Welcome to the summoners rift</h1>
+
+  <div class="actions">
+    <button id="get-champ-list" type="button">Get the champion list</button>
+  </div>
+
+  <div class="container">
+    <div id="champ-names">
+      <h3>Champ names</h3>
+      <ul id="champ-name-list"></ul>
+    </div>
+
+    <div id="champ-lore">
+      <h3>Lore:</h3>
+      <span></span>
+    </div>
+
+    <div id="champ-img"></div>
+  </div>
+
   <script src="index.js"></script>
 </body>
 </html>
